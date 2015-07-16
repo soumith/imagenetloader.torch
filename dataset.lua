@@ -6,7 +6,7 @@ local argcheck = require 'argcheck'
 require 'sys'
 local gm = require 'graphicsmagick'
 
-local dataset = torch.class('chex.dataset')
+local dataset = torch.class('imageLoader')
 
 local initcheck = argcheck{
    pack=true,
